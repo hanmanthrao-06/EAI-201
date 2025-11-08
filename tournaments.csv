@@ -1,0 +1,22 @@
+key_id,tournament_id,tournament_name,year,start_date,end_date,host_country,winner,host_won,count_teams,group_stage,second_group_stage,final_round,round_of_16,quarter_finals,semi_finals,third_place_match,final
+1,WC-1930,1930 FIFA World Cup,1930,13-07-1930,30-07-1930,Uruguay,Uruguay,1,13,1,0,0,0,0,1,0,1
+2,WC-1934,1934 FIFA World Cup,1934,27-05-1934,10-06-1934,Italy,Italy,1,16,0,0,0,1,1,1,1,1
+3,WC-1938,1938 FIFA World Cup,1938,04-06-1938,19-06-1938,France,Italy,0,15,0,0,0,1,1,1,1,1
+4,WC-1950,1950 FIFA World Cup,1950,24-06-1950,16-07-1950,Brazil,Uruguay,0,13,1,0,1,0,0,0,0,0
+5,WC-1954,1954 FIFA World Cup,1954,16-06-1954,04-07-1954,Switzerland,West Germany,0,16,1,0,0,0,1,1,1,1
+6,WC-1958,1958 FIFA World Cup,1958,08-06-1958,29-06-1958,Sweden,Brazil,0,16,1,0,0,0,1,1,1,1
+7,WC-1962,1962 FIFA World Cup,1962,30-05-1962,17-07-1962,Chile,Brazil,0,16,1,0,0,0,1,1,1,1
+8,WC-1966,1966 FIFA World Cup,1966,11-07-1966,30-07-1966,England,England,1,16,1,0,0,0,1,1,1,1
+9,WC-1970,1970 FIFA World Cup,1970,31-05-1970,21-06-1970,Mexico,Brazil,0,16,1,0,0,0,1,1,1,1
+10,WC-1974,1974 FIFA World Cup,1974,13-06-1974,07-07-1974,West Germany,West Germany,1,16,1,1,0,0,0,0,1,1
+11,WC-1978,1978 FIFA World Cup,1978,01-06-1978,25-06-1978,Argentina,Argentina,1,16,1,1,0,0,0,0,1,1
+12,WC-1982,1982 FIFA World Cup,1982,13-06-1982,11-07-1982,Spain,Italy,0,24,1,1,0,0,0,1,1,1
+13,WC-1986,1986 FIFA World Cup,1986,31-05-1986,29-06-1986,Mexico,Argentina,0,24,1,0,0,1,1,1,1,1
+14,WC-1990,1990 FIFA World Cup,1990,08-06-1990,08-07-1990,Italy,West Germany,0,24,1,0,0,1,1,1,1,1
+15,WC-1994,1994 FIFA World Cup,1994,17-06-1994,17-07-1994,United States,Brazil,0,24,1,0,0,1,1,1,1,1
+16,WC-1998,1998 FIFA World Cup,1998,10-06-1998,12-07-1998,France,France,1,32,1,0,0,1,1,1,1,1
+17,WC-2002,2002 FIFA World Cup,2002,31-05-2002,30-06-2002,"Korea, Japan",Brazil,0,32,1,0,0,1,1,1,1,1
+18,WC-2006,2006 FIFA World Cup,2006,09-06-2006,09-07-2006,Germany,Italy,0,32,1,0,0,1,1,1,1,1
+19,WC-2010,2010 FIFA World Cup,2010,11-06-2010,11-07-2010,South Africa,Spain,0,32,1,0,0,1,1,1,1,1
+20,WC-2014,2014 FIFA World Cup,2014,12-06-2014,13-07-2014,Brazil,Germany,0,32,1,0,0,1,1,1,1,1
+21,WC-2018,2018 FIFA World Cup,2018,14-06-2018,15-07-2018,Russia,France,0,32,1,0,0,1,1,1,1,1

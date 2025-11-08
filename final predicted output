@@ -1,0 +1,75 @@
+PS C:\Users\hanma\Downloads\AIML-2> python predict_final.py
+=== predict_final.py starting ===
+Working dir: C:\Users\hanma\Downloads\AIML-2
+Python: C:\Users\hanma\AppData\Local\Python\pythoncore-3.14-64\python.exe
+
+Root files:
+  a.out
+  app
+  combine_data.py
+  data
+  data_prep.py
+  evaluate_models.py
+  final_predictions.csv
+  final_predictions_chart.png
+  matches.csv
+  modeling
+  models
+  player_appearances.csv
+  plots
+  predict_2026.py
+  predict_final.py
+  reports
+  scrape_site.py
+  scraper
+  scraper.py
+  team_appearances.csv
+  teams.csv
+  tournaments.csv
+  train_models.py
+  venv
+  week1_report.pdf
+  week2_report.pdf
+  week3_report.pdf
+
+Models folder listing:
+  cleaned_worldcup_data.csv
+  log_model.pkl
+  rf_model.pkl
+  rf_tuned.pkl
+  scaler.pkl
+  scraper.py
+  tune_rf.py
+
+Loaded model from models\rf_tuned.pkl
+Model type: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+Model.feature_names_in_ found: ['goals_for', 'goals_against', 'goal_diff', 'win_rate', 'loss_rate', 'draw_rate']
+Future DataFrame shape: (8, 8)
+     team  goals_for  goals_against  goal_diff  draw_rate  loss_rate  win_rate  ranking_strength
+Argentina        2.1            0.3        1.8       0.10       0.05      0.72              0.95
+   France        2.0            0.4        1.6       0.12       0.08      0.70              0.93
+   Brazil        1.9            0.5        1.4       0.15       0.10      0.69              0.94
+  England        1.8            0.6        1.2       0.14       0.12      0.65              0.91
+ Portugal        1.7            0.7        1.0       0.13       0.10      0.64              0.89
+
+Final feature columns used for prediction: ['goals_for', 'goals_against', 'goal_diff', 'win_rate', 'loss_rate', 'draw_rate']
+X shape: (8, 6)
+
+Trying model.predict_proba(X)...
+predict_proba OK. sample: [0.59 0.59 0.59 0.68]
+
+✅ Predictions saved to final_predictions.csv
+          team  finalist_probability  predicted_finalist
+0    Argentina                  0.59                   1
+1       France                  0.59                   1
+2       Brazil                  0.59                   1
+3      England                  0.68                   1
+4     Portugal                  0.68                   1
+5        Spain                  0.68                   1
+6      Germany                  0.68                   1
+7  Netherlands                  0.08                   0
+✅ Saved chart to final_predictions_chart.png
+
+=== predict_final.py finished ===
+PS C:\Users\hanma\Downloads\AIML-2>

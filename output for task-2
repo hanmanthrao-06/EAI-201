@@ -1,0 +1,55 @@
+======================================================================
+TASK 2: EDA AND CLEANING
+======================================================================
+
+Loaded 101 records
+
+c:\Users\ub13-glab-016\Downloads\task-2.py:29: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=df, x='class_type', y='legs', ax=ax2, palette='Set2')
+Visualizations saved as eda_visualizations.png
+
+======================================================================
+EDA STATISTICS
+======================================================================
+
+Class Distribution:
+class_type
+1    41
+2    20
+3     5
+4    13
+5     4
+6     8
+7    10
+Name: count, dtype: int64
+
+Conservation Status:
+conservation_status
+least concern      96
+vulnerable          2
+near threatened     1
+least               1
+endangered          1
+Name: count, dtype: int64
+
+Endangered Animals: 3
+
+Top 3 Features by Variance: ['legs', 'predator', 'hair']
+
+Habitat Distribution:
+habitat_type
+forest            92
+freshwater         3
+grasslands         2
+savanna            1
+domestic           1
+marine             1
+marine/coastal     1
+Name: count, dtype: int64
+
+======================================================================
+TASK 2 COMPLETE
+======================================================================
